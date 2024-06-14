@@ -149,6 +149,15 @@ header {
     background-color: #2980b9;
 }
 
+#about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    padding: 50px 0;
+    height: 100%;
+}
+
 @media (max-width: 1600px){
     .hero-image {
         width: 400px;
@@ -209,6 +218,8 @@ header {
     }
 
     .hero-text {
+        align-items: center;
+        justify-content: center;
         text-align: center;
         padding: 20px;
     }
