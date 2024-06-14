@@ -70,11 +70,10 @@ header {
 }
 
 #hero {
-    height: 95vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #fff;
+    background-color:#fcfcfc;
 }
 
 .hero-container {
